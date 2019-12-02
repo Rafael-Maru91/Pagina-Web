@@ -1,0 +1,18 @@
+nav{
+	background-color: black;
+	font-size: 40px;
+	text-shadow: 1px 2px;
+	cursor: pointer;
+}
+h4{
+	 text-shadow: 2px 2px #000;
+     text-decoration: overline;
+}
+
+img{
+	transform: rotate(0deg);
+	transition: transform 3s;
+}
+img:hover{
+	transform: rotate(360deg);
+}

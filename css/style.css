@@ -1,0 +1,13 @@
+@keyframes fondo{
+	20%{background-color: yellow;}
+	40%{background-color: green;}
+    60%{background-color: white;}
+	80%{background-color: blue;}
+	100%{background-color: black;}
+}
+body{
+	animation: fondo;
+	animation-name: fondo;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
